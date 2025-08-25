@@ -1,7 +1,11 @@
 import streamlit as st
 import pandas as pd
 import requests
+from dotenv import load_dotenv
 import os
+
+load_dotenv(dotenv_path=".env")
+api_key = os.getenv("PPLX_API_KEY")
 
 # ==============================
 # CONFIGURATION
