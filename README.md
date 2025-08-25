@@ -1,0 +1,1 @@
+# NSE-equities-smart-news
