@@ -1,17 +1,11 @@
 import streamlit as st
 import pandas as pd
 import requests
-from dotenv import load_dotenv
-import os
-
-load_dotenv(dotenv_path=".env")
-api_key = os.getenv("PPLX_API_KEY")
 
 # ==============================
 # CONFIGURATION
 # ==============================
-#PPLX_API_KEY = "YOUR_PERPLEXITY_API_KEY"  # Store in Streamlit secrets for production
-PPLX_API_KEY=os.getenv('PPLX_API_KEY')
+PPLX_API_KEY='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'
 PPLX_API_URL = "https://api.perplexity.ai/chat/completions"
 MODEL_NAME = "sonar-pro"
 
