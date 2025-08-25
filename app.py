@@ -15,7 +15,7 @@ MODEL_NAME = "sonar-pro"
 st.set_page_config(page_title="NSE Equities Smart News", layout="centered")
 
 # Load NSE scrips
-scripname = pd.read_csv(r'/home/logeshwaran/logixsmart/newsymbol.csv')
+scripname = pd.read_csv('newsymbol.csv')
 
 # ==============================
 # CSS Styling
